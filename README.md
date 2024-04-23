@@ -23,3 +23,15 @@ terraform apply
 - `terraform plan` - Show changes required by the current configuration
 - `terraform apply` - Create or update infrastructure
 - `terraform destroy` - Destroy previously-created infrastructure
+
+## Docker container
+
+https://github.com/TomorrowTechReviews/aws-cdk-ts/tree/main/containers/chats
+
+## Docker commands
+
+Build on Apple Silicon M1:
+
+```bash
+docker buildx build --platform linux/amd64 -t chat .
+```
